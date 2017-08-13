@@ -1,0 +1,57 @@
+.mixed
+  h1
+    text-transform: uppercase
+  .fa
+    font-size: 20px
+    padding: 10px
+    &:hover
+      cursor: pointer
+    span
+      font-weight: bold
+      padding: 10px
+  .flex-grid
+    width: 2000px
+    height: 1200px
+    margin-top: 50px
+
+    .col
+      flex: 1
+      margin: 10px
+      height: 100%
+      background-size: cover
+      background-position: center center
+      .lrg-pic
+        height: 100%
+        background-size: cover
+        background-position: center center
+        width: 100%
+      .row
+        width: 100%
+        height: 400px
+        margin: 10px
+
+        .pic-small
+          width: 50%
+          height: 100%
+          background-size: cover
+          background-position: center center
+          &:nth-of-type(2)
+            margin-left: 10px
+
+  .btn-locker
+    margin-top: 40px
+    margin-bottom: 30px
+    .btn
+      background: white
+      text-transform: uppercase
+      color: black
+      padding: 10px 60px
+      border: 3px solid black
+      font-weight: bold
+      transition: .54s ease all
+      margin-left: 20px
+      &:hover
+        background: black
+        cursor: pointer
+        letter-spacing: 3px
+        color: white

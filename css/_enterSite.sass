@@ -1,0 +1,58 @@
+#enterSite
+  width: 100%
+  height: 100%
+  background: white
+  .wrapper
+    flex: 1
+    overflow: hidden
+    .pics
+      background: url('https://i.imgur.com/Dvz9soK.jpg')
+        size: cover
+        position: center center
+      transition: .56s ease all
+      filter: grayscale(1)
+      .rw
+      font-size: 60px
+      color: black
+      &:hover
+        filter: grayscale(0)
+      animation: zoom 50s
+
+
+  .unit
+    flex: 1
+    width: 100%
+    height: 100%
+
+  .intro
+    .item
+      opacity: 0
+    .logo
+      font-family: "proxima-nova",sans-serif
+      font-size: 100px
+      font-weight: 900
+      text-transform: uppercase
+      letter-spacing: 2px
+      margin: 0
+      padding: 0
+    .under
+      font-size: 9px
+      font-weight: 300
+      font-family: "proxima-nova",sans-serif
+      letter-spacing: 4px
+      margin: 0
+      padding-bottom: 80
+    .enter
+      font-family: "proxima-nova",sans-serif
+      text-transform: uppercase
+      font-weight: 600
+      font-size: 10px
+      letter-spacing: 4px
+      padding: 20px 100px
+      transition: .56s ease all
+      color: black
+      &:hover
+        cursor: pointer
+        border: 2px solid lightgrey
+        background: lightgrey
+        color: white
